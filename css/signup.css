@@ -1,0 +1,154 @@
+.body____container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: url("../images/register.jpg") no-repeat ;
+    /* background: url("../images/signin.jpg") no-repeat ; */
+    background-size: cover;
+    background-position: center;
+    animation: animateBg 5s linear infinite;
+    z-index: -1;
+}
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg)
+    }
+}
+
+.login__box{
+    position: relative;
+    width: 40rem;
+    height: 45rem;
+    background: transparent ;
+    border: .2rem solid var(--color-grey-light);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1.5rem);
+}
+
+form > h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.input__box {
+    position: relative;
+    width: 30rem;
+    margin: 3rem 0;
+    border-bottom: .2rem solid whitesmoke;
+}
+
+.input__box > label {
+    position: absolute;
+    top: 50%;
+    left: .5em;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: whitesmoke;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input__box > input:focus~label,
+.input__box > input:valid~label {
+    top: -.5rem;
+}
+
+.input__box > input {
+    width: 100%;
+    height: 5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size:  1.6rem;
+    color: whitesmoke;
+    padding: 0 3.5rem 0 .5rem;
+}
+
+.input__box > .icon {
+    position: absolute;
+    right: .8rem;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 5.7rem;
+}
+
+.remember__forgot {
+    margin:  -1.2rem 0 1.5rem;
+    font-size: 1.4rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember__forgot > label > input {
+    margin-right: .3rem;
+}
+
+.remember__forgot > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.remember__forgot > a:hover {
+    text-decoration: underline;
+   
+}
+
+.login__register__link {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    text-align: center;
+    margin:  2.5rem 0 1rem;
+}
+
+.login__register__link > p > a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.login__register__link > p > a:hover {
+    text-decoration: underline;
+    color: var(--color-blue-light-1);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.login__register__link > p:last-child > a {
+    color: var(--color-blue-light-3);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.login__register__link > p:last-child > a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.login__box_signup{
+    height: 58rem;
+}
+
+.button{
+    background-color:#00B7BD ;
+    border: none;
+    color:black;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button1:hover{
+    box-shadow: 0 12px 16px ;
+}

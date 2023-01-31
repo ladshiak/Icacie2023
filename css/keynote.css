@@ -1,0 +1,29 @@
+div.keynotee {
+    margin: 7px;
+    float: left;
+    width:440px;
+    padding: 2rem;
+  }
+  
+  div.keynotee img {
+    width: 100%;
+    height: 360px;
+    align-items: center;
+  }
+
+  .icacie-text__content2{
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 89px;
+    color: black;
+  }
+
+  .names{
+    font-size: 1.65rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #00588A;
+  }

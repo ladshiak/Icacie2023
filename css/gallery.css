@@ -1,0 +1,32 @@
+div.gallery {
+    margin: 5px;
+    float: left;
+    width:670px;
+    padding: 5rem;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .icacie-text__content2{
+    font-size: 2.2rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+  .gallerycontent{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }

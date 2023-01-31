@@ -1,0 +1,17 @@
+.subheading{
+    font-size: 4rem;
+    padding: 2rem;
+    text-align: left;
+    color: #007DBE;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .accContent{
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+
+
